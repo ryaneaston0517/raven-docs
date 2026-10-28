@@ -1,6 +1,6 @@
 # raven-docs
 
-Documentation for **Raven AI** — served at **[docs.getauspex.ai](https://docs.getauspex.ai)** via GitHub Pages.
+Documentation for **Auspex Intelligence** — served at **[docs.getauspex.ai](https://docs.getauspex.ai)** via GitHub Pages.
 
 Currently a placeholder (`index.html` only). Real documentation will ship here as it's written.
 
