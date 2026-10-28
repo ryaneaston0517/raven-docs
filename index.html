@@ -22,13 +22,12 @@
     />
     <style>
       :root {
-        --raven-black: #0a0e1a;
-        --raven-navy: #0f1729;
-        --raven-red: #e63946;
-        --raven-blue: #2e6be6;
-        --raven-blue-glow: #4a8fff;
-        --raven-text: #919191;
-        --raven-text-muted: #9ca3af;
+        /* Auspex palette — mirrors ax-* tokens in ravenai-site tailwind.config.ts */
+        --ax-night: #0e0b1c;
+        --ax-violet-deep: #2a1f5c;
+        --ax-violet-glow: #8d7bff;
+        --ax-mist: #c9ccdd;
+        --ax-muted: #8a8fa8;
       }
       *,
       *::before,
@@ -43,17 +42,12 @@
       body {
         background:
           radial-gradient(
-              ellipse at top left,
-              rgba(46, 107, 230, 0.12),
-              transparent 60%
-            ),
-          radial-gradient(
-              ellipse at bottom right,
-              rgba(230, 57, 70, 0.15),
-              transparent 60%
-            ),
-          var(--raven-black);
-        color: var(--raven-text);
+            100% 80% at 50% 0%,
+            var(--ax-violet-deep) 0%,
+            var(--ax-night) 70%
+          ),
+          var(--ax-night);
+        color: var(--ax-mist);
         font-family:
           Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         min-height: 100svh;
@@ -73,7 +67,7 @@
         font-size: 0.75rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
-        color: var(--raven-blue);
+        color: var(--ax-violet-glow);
         margin: 0;
       }
       h1 {
@@ -87,37 +81,37 @@
       }
       h1 em {
         font-style: italic;
-        color: var(--raven-red);
+        color: var(--ax-violet-glow);
       }
       p {
         font-size: 1.125rem;
         line-height: 1.6;
         margin: 0;
-        color: var(--raven-text-muted);
+        color: var(--ax-mist);
       }
       a {
         color: #fff;
         text-decoration: none;
-        border-bottom: 1px solid var(--raven-red);
+        border-bottom: 1px solid var(--ax-violet-glow);
         padding-bottom: 2px;
         transition: border-color 0.2s;
       }
       a:hover,
       a:focus-visible {
-        border-bottom-color: var(--raven-blue-glow);
+        border-bottom-color: #fff;
         outline: none;
       }
       footer {
         margin-top: 1.5rem;
         font-size: 0.875rem;
-        color: var(--raven-text-muted);
+        color: var(--ax-muted);
       }
       footer strong {
         color: #fff;
         font-weight: 600;
       }
       footer strong em {
-        color: var(--raven-red);
+        color: var(--ax-violet-glow);
         font-style: normal;
       }
     </style>
