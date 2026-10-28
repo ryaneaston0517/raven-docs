@@ -1,6 +1,6 @@
 # raven-docs
 
-Documentation for **Raven AI** — served at **[docs.ravenintelligence.ai](https://docs.ravenintelligence.ai)** via GitHub Pages.
+Documentation for **Raven AI** — served at **[docs.getauspex.ai](https://docs.getauspex.ai)** via GitHub Pages.
 
 Currently a placeholder (`index.html` only). Real documentation will ship here as it's written.
 
@@ -26,4 +26,4 @@ git push
 
 ## Related
 
-- [`ravenai-site`](https://github.com/ryaneaston0517/ravenai-site) — marketing site at [ravenintelligence.ai](https://ravenintelligence.ai). Shared brand palette (`raven-black` / `raven-navy` / `raven-red` / `raven-blue`) and Fraunces + Inter typography. Keep this placeholder visually consistent if you edit it.
+- [`ravenai-site`](https://github.com/ryaneaston0517/ravenai-site) — marketing site at [getauspex.ai](https://getauspex.ai). Shared brand palette (`raven-black` / `raven-navy` / `raven-red` / `raven-blue`) and Fraunces + Inter typography. Keep this placeholder visually consistent if you edit it.
